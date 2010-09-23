@@ -1,0 +1,18 @@
+Combine JavaScript & CSS files by Combo.js in Node.js.
+
+0.1.0
+1.
+http://yourcdn.com/example/hello.js
+http://yourcdn.com/example/fun.js
+http://yourcdn.com/combo=example/hello.js
+http://yourcdn.com/combo=example/hello.js&example/fun.js
+2.
+Throw friendly error, if some file isn't exist.
+Return error info, so the developer will know it at once.
+
+0.2.0
+1.
+Cached exist files.
+
+1.0.0
+run online.
