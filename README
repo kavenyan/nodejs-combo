@@ -1,18 +1,23 @@
 Combine JavaScript & CSS files by Combo.js in Node.js.
 
-0.1.0
-1.
+The Combo URL Format is:
 http://yourcdn.com/example/hello.js
 http://yourcdn.com/example/fun.js
 http://yourcdn.com/combo=example/hello.js
 http://yourcdn.com/combo=example/hello.js&example/fun.js
-2.
-Throw friendly error, if some file isn't exist.
-Return error info, so the developer will know it at once.
+
+0.1.0
+1. Make sure the combo url format. Combine the files by the combo url.
+2. Throw friendly error, if some file isn't exist. Return error info, so the developer will know it at once.
+3. Set HTTP Header Cache Time 10 years.  
 
 0.2.0
-1.
-Cached exist files.
+1. Cache exist files.
+2. Hide the favicon.ico.
+
+0.3.0
+Think about 304.
+...
 
 1.0.0
 run online.
